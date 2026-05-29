@@ -58,12 +58,7 @@ pipeline {
                 sh 'python tests/test_api.py'
             }
         }
-        stage('Keep Alive') {
-            steps {
-                // Keep the container running indefinitely
-                sh 'sleep infinity'
-            }
-        }
+
     }
     post {
         always {
