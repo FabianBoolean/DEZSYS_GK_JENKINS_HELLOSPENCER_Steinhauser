@@ -1,4 +1,4 @@
-# DEZSYS GK8.3 – Jenkins Hello Spencer Pipeline
+# DEZSYS GK8.3 – Jenkins Hello Fabian Pipeline
 
 **Autoren:** Fabian Steinhauser, Sebastian Nosek
 
@@ -168,7 +168,7 @@ Erwartete Ausgabe:
 ```json
 {
   "counter": 31,
-  "message": "Hello Spencer",
+  "message": "Hello Fabian",
   "status": "success"
 }
 ```
